@@ -1,0 +1,33 @@
+<!-- HOW THIS WORKS
+- The Span navMenu tag contains buttons which reference expansion states of a Bootstrap accordion - this allows content to be loaded a good bit faster than individual page links (obviously)
+- Using Angular Material Toolbar for nice header formatting
+- The eyeballs are a test and will be reworked to be a changing background gradient based on user cursor position
+  -->
+
+
+<mat-toolbar color="secondary">
+<span class = "fixedNav">
+<div>
+<h1 id = "headingName">Weston Davidson</h1>
+<h3 id = "tagLine">Front-End Web Developer</h3>
+</div>
+
+<span id = "navMenu">
+    <button mat-button type="button" data-toggle="collapse" data-target="#home"  aria-expanded="true" aria-controls="home" id="homeButton" data-parent="#accordion">About</button>
+    <button mat-button type="button" data-toggle="collapse" data-target="#resume" aria-expanded="false" aria-controls="resume" id="resumeButton" data-parent="#accordion">Portfolio</button>
+    <button mat-button type="button" data-toggle="collapse" data-target="#contact" aria-expanded="false" aria-controls="contact" id="contactButton" data-parent="#accordion">Contact</button>
+</span>
+
+<span class="eyes">
+  <div class="eye">
+    <div class="ball"></div>
+  </div>
+
+  <div class="eye">
+    <div class="ball"></div>
+  </div>
+</span>
+
+</span>
+</mat-toolbar>
+<mat-divider></mat-divider>

@@ -1,0 +1,23 @@
+#module {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+
+#module #collapseText-1.collapse:not(.show) #collapseText-2.collapse:not(.show) #collapseText-3.collapse:not(.show) #collapseText-4.collapse:not(.show) {
+  display: block;
+  height: 3rem;
+  overflow: hidden;
+}
+
+#module #collapseText-1.collapsing #collapseText-2.collapsing #collapseText-3.collapsing #collapseText-4.collapsing {
+  height: 3rem;
+}
+
+#module a.collapsed::after {
+  content: '+ Show Description';
+}
+
+#module a:not(.collapsed)::after {
+  content: '- Hide Description';
+}

@@ -1,0 +1,40 @@
+#headingName{
+  position: relative;
+  top:0;
+  left:0;
+  font-size: 3.5vw;
+}
+
+@media screen and (min-width: 650px) {
+  #headingName {
+    font-size: 40px;
+    position: relative;
+    top:0;
+    left:0;
+  }
+}
+
+
+#tagLine {
+  font-size: 2.5vw;
+}
+@media screen and (min-width: 650px) {
+  #tagLine {
+    font-size: 20px;
+    position: relative;
+    top:0;
+    left:0;
+  }
+}
+
+#navMenu{
+  white-space: nowrap;
+}
+
+.fixedNav{
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  justify-content: space-between;
+  align-items: center;
+}

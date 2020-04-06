@@ -1,0 +1,23 @@
+
+<!--HOW THIS WORKS:
+- An ngFor declaration iterates on all instances of stored portfolio examples.
+- Also keeps track of the index value to assign collapsable buttons to each card description.
+- Async pipe is required to load the json Information
+- CSS/Bootstrap tricks are used to either expand or hide the project description - done in the local mat-cads css file to avoid clutter elsewhere - won't be reused on site.
+ -->
+
+ 
+<mat-card *ngFor="let portfolio of portfolioTabs | async; let i = index;"> <mat-card-title> <a href="{{portfolio.link}}" target="_blank">{{portfolio.title}}</a> </mat-card-title>
+    <div id="module" class="container">
+<mat-card-content>
+
+  <div class="collapse" id="collapseText-{{i}}" aria-expanded="false">
+     {{portfolio.projectDescription}}
+
+     </div>
+
+               <a role="button" class="collapsed" data-toggle="collapse" href="#collapseText-{{i}}" aria-expanded="false" aria-controls="collapseText"></a>
+
+  </mat-card-content>
+     </div>
+</mat-card>

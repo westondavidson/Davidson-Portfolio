@@ -1,1 +1,70 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css"
+@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+@import 'https://fonts.googleapis.com/icon?family=Material+Icons';
+@include mat-core();
+
+
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+
+
+
+
+/*fix for aligning description text to the right within a mat expansion panel */
+.right-aligned-header > .mat-content{
+  justify-content: space-between;
+}
+.mat-content > mat-panel-title, .mat-content > mat-panel-description {
+  flex: 0 0 auto;
+}
+
+
+.leftpanel{
+position: absolute;
+left: 0;
+width: 100%;
+}
+.rightpanel{
+  float: right;
+  Width: 48%;
+}
+
+
+.eyes{
+ padding-right: 5%;
+
+  padding-left: 2%;
+  white-space: nowrap;
+}
+.eye{
+  width: 30px;
+  height: 30px;
+  background: #fff;
+  display: inline-block;
+  margin: 0px;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+}
+
+.ball{
+  width: 20px;
+  height: 20px;
+  background: #000;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  border-radius: 50%;
+  border: 10px solid #aa360f;
+}
+
+#scaredEmoji{
+  position: absolute;
+  width: 125px;
+  top:0;
+  right:0;
+}

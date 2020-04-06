@@ -1,0 +1,32 @@
+<!--HOW THIS WORKS/NOTES
+- the material icons are being sanitized by the Angular DomSanitizer - this, along with the bypassSecurityTrust is used to prevent security flaws.
+- the use case for the bypass should not cause any security issues
+  -->
+
+<h3 class="m-1">Social Media</h3>
+<span class="">
+<a href="https://twitter.com/HAXAN_FUTURE" target="_blank">
+<button mat-icon-button aria-label="twitter social media link">
+    <mat-icon svgIcon="twitter">twitter</mat-icon>
+</button>
+</a>
+<a href="https://www.facebook.com/weston.davidson.7" target="_blank">
+<button mat-icon-button aria-label="facebook social media link">
+    <mat-icon svgIcon="facebook">facebook</mat-icon>
+</button>
+</a>
+<a href="https://www.linkedin.com/in/westondavidson/" target="_blank">
+<button mat-icon-button aria-label="linkedin social media link">
+    <mat-icon svgIcon="linkedin">linkedin</mat-icon>
+</button>
+</a>
+</span>
+<h3 class="m-1">Email</h3>
+<a href="mailto:weston@westondavidson.com?Subject=Communication%20Request:" target="_top" class="ml-1">
+weston@westondavidson.com
+<button mat-icon-button aria-label="email">
+    <mat-icon>email</mat-icon>
+</button>
+</a>
+<br/>
+<app-contact-form></app-contact-form>

@@ -1,0 +1,30 @@
+<!--HOW THIS WORKS/NOTES
+- A simple Bootstrap accordion to contain all site content
+  -->
+<div id="accordion" class="m-3">
+  <div class="card">
+
+
+    <div id="home" class="collapse show" aria-labelledby="home" data-parent="#accordion">
+      <div class="card-body">
+        <app-about></app-about>
+      </div>
+    </div>
+  </div>
+  <div class="card">
+
+    <div id="resume" class="collapse" aria-labelledby="resume" data-parent="#accordion">
+      <div class="card-body">
+        <app-resume></app-resume>
+      </div>
+    </div>
+  </div>
+  <div class="card">
+
+    <div id="contact" class="collapse" aria-labelledby="contact" data-parent="#accordion">
+      <div class="card-body">
+        <app-contact></app-contact>
+      </div>
+    </div>
+  </div>
+</div>
