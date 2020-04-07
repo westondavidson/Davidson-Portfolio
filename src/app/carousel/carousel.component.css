@@ -2,3 +2,24 @@
   width: 10%;
   background-color: #ffff;
 }
+@media screen and (min-width: 1000px) {
+#content{
+  overflow: hidden;
+  margin-left: 30%;
+  margin-right: -5%;
+  margin-top: 10%;
+}
+}
+
+.panel-group{
+    margin:0;
+}
+
+.panel{
+    border:none;
+    box-shadow:none;
+}
+
+.panel-heading{
+    padding:0;
+}

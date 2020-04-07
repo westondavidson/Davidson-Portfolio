@@ -12,6 +12,12 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
 
 
+.panel, .panel-group .panel-heading+.panel-collapse>.panel-body{
+    border: none;
+    box-shadow: none;
+}
+
+
 
 /*fix for aligning description text to the right within a mat expansion panel */
 .right-aligned-header > .mat-content{

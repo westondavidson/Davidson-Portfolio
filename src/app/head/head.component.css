@@ -1,40 +1,81 @@
-#headingName{
-  position: relative;
-  top:0;
-  left:0;
-  font-size: 3.5vw;
-}
 
-@media screen and (min-width: 650px) {
-  #headingName {
-    font-size: 40px;
+
+/*
+Two separate css configurations are used for screen based on Width
+should allow for better mobile support/cleaner interface in both situations
+*/
+
+@media screen and (max-width: 1000px) {
+
+  #headingName{
     position: relative;
-    top:0;
-    left:0;
+    top:5px;
+    left: 5px;
+    font-size: 3.5vw;
   }
-}
 
+  .fixedNav{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    justify-content: space-between;
+    align-items: center;
+  }
 
-#tagLine {
-  font-size: 2.5vw;
-}
-@media screen and (min-width: 650px) {
   #tagLine {
-    font-size: 20px;
+    font-size: 2.5vw;
     position: relative;
-    top:0;
-    left:0;
+    top: 0px;
+    left:5px;
+  }
+
+  #navMenu{
+    white-space: nowrap;
   }
 }
 
-#navMenu{
-  white-space: nowrap;
-}
+@media screen and (min-width: 1000px) {
 
-.fixedNav{
-  display: flex;
-  flex-direction: row;
-  width: 90%;
-  justify-content: space-between;
-  align-items: center;
+  #headingName{
+    position: relative;
+    top:60px;
+    left:10px;
+    font-size: 3.5vw;
+  }
+
+    #tagLine {
+      font-size: 2.5vw;
+      position: relative;
+      top: 80px;
+      left:10px;
+    }
+
+  .fixedNav{
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 30%; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+    border-right: 3px solid gray;
+  }
+
+
+  #navMenu{
+    margin: auto;
+    width: 100%;
+    top: 40vh;
+    left:7vw;
+
+    white-space: nowrap;
+
+    position: relative;
+            /*
+    flex-basis: 100%;
+    margin-left: 6vw;
+    margin-right: 6vw;
+    */
+  }
 }
