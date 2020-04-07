@@ -6,8 +6,9 @@
 - CSS/Bootstrap tricks are used to either expand or hide the project description - done in the local mat-cads css file to avoid clutter elsewhere - won't be reused on site.
  -->
 
- 
+
 <mat-card *ngFor="let portfolio of portfolioTabs | async; let i = index;"> <mat-card-title> <a href="{{portfolio.link}}" target="_blank">{{portfolio.title}}</a> </mat-card-title>
+  <!-- not working quite yet <img mat-card-image src="{{portfolio.image}}" alt="{{portfolio.title}}"> -->
     <div id="module" class="container">
 <mat-card-content>
 
