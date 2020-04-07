@@ -12,10 +12,7 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
 
 
-.panel, .panel-group .panel-heading+.panel-collapse>.panel-body{
-    border: none;
-    box-shadow: none;
-}
+
 
 
 
@@ -73,4 +70,12 @@ width: 100%;
   width: 125px;
   top:0;
   right:0;
+}
+
+body{
+  background-image: linear-gradient(to bottom right, purple, blue);
+}
+
+.bg-primary{
+
 }
