@@ -39,6 +39,7 @@ export class HeadComponent implements OnInit {
    }
 
   ngOnInit(): void {
+/*
     //save selected tab on page reload --NOT WORKING YET--
     $(document).ready(function(){
       //on document ready,
@@ -50,6 +51,7 @@ export class HeadComponent implements OnInit {
       $('#accordion a[href="' + activeTab + '"]').collapse('show');
     }
     });
+    */
 
   }
 
