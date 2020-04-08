@@ -2,6 +2,7 @@ import { Component, OnInit, HostListener } from '@angular/core';
 
 import { Renderer2, Inject } from '@angular/core';
 
+
 @Component({
   selector: 'app-head',
   templateUrl: './head.component.html',
@@ -32,13 +33,31 @@ export class HeadComponent implements OnInit {
     //console.log(this.y);
 }
 
+
+
 }
 
   constructor() {
 
-   }
+
+ if ($(window).width() > 960) {
+   $('body').ripples({
+ resolution: 512,
+ dropRadius: 20,
+ perturbance: 0.04,
+});
+ }
+
+
+
+
+    }
+
+
 
   ngOnInit(): void {
+
+
 /*
     //save selected tab on page reload --NOT WORKING YET--
     $(document).ready(function(){
