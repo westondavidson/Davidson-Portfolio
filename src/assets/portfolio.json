@@ -1,17 +1,32 @@
 [{
-		"title": "Overnight",
-		"projectDescription": "This was one CRAZY project lol",
-		"link": "https://residentialelectric-heating-cooling.com/",
-		"Image": "./haxanfuture_image.JPG"
+		"title": "Portfolio (This Website)",
+		"projectDescription": "My portfolio website was built from scratch using Angular in conjunction with Bootstrap, and makes use of JSON, jQuery and Angular Materials alongside the aforementioned frameworks to create a well-designed Single-Page Application meant to showcase my skills and previous work as a web developer.",
+		"link": "https://residentialelectric-heating-cooling.com/"
 	},
 	{
-		"title": "Great stuff",
+		"title": "Residential Electric",
 		"projectDescription": "I can't beleve I didn't die from this one haha asfd;lkasdl;fkasdl;jfsadlj;kfasd;ljkfa;sldjkfasd;jlkaf;sjldkf;adsjlfda;sfasd;asfd;lkasdl;fkasdl;jfsadlj;kfasd;ljkfa;sldjkfasd;jlkaf;sjldkf;adsjlfda;sfasd;asfd;lkasdl;fkasdl;jfsadlj;kfasd;ljkfa;sldjkfasd;jlkaf;sjldkf;adsjlfda;sfasd;asfd;lkasdl;fkasdl;jfsadlj;kfasd;ljkfa;sldjkfasd;jlkaf;sjldkf;adsjlfda;sfasd;asfd;lkasdl;fkasdl;jfsadlj;kfasd;ljkfa;sldjkfasd;jlkaf;sjldkf;adsjlfda;sfasd;asfd;lkasdl;fkasdl;jfsadlj;kfasd;ljkfa;sldjkfasd;jlkaf;sjldkf;adsjlfda;sfasd;asfd;lkasdl;fkasdl;jfsadlj;kfasd;ljkfa;sldjkfasd;jlkaf;sjldkf;adsjlfda;sfasd;asfd;lkasdl;fkasdl;jfsadlj;kfasd;ljkfa;sldjkfasd;jlkaf;sjldkf;adsjlfda;sfasd;asfd;lkasdl;fkasdl;jfsadlj;kfasd;ljkfa;sldjkfasd;jlkaf;sjldkf;adsjlfda;sfasd;asfd;lkasdl;fkasdl;jfsadlj;kfasd;ljkfa;sldjkfasd;jlkaf;sjldkf;adsjlfda;sfasd;",
 		"link": "https://residentialelectric-heating-cooling.com/"
 	},
 	{
-		"title": "Poggy Woggy",
-		"projectDescription": "bro this was so sick lmao",
-		"link": "https://residentialelectric-heating-cooling.com/"
+		"title": "DaytonaState InMotion News",
+		"projectDescription": "During my time at Daytona State College, I assisted the college newspaper with their website as resident Webmaster for about 2 years. This site was originally created using the WordPress CMS. During this time I regularly attended meetings regarding the website, communicated and collaborated with staff writers on articles, managed user accounts, and maintained the legacy systems put in place by previous Webmasters.",
+		"link": "https://www.daytonastateinmotion.com/"
+	},
+	{
+		"title": "Bideojames",
+		"projectDescription": "For a brief period, I assisted a team of video game journalists with designing and running a gaming news website. The project is now on hiatus, but the site is still up as another valuable portfolio example. This site was created using WordPress.",
+		"link": "http://bideojames.com/"
+	},
+	{
+		"title": "Web Systems Course Website",
+		"projectDescription": "For a brief period, I assisted a team of video game journalists with designing and running a gaming news website. The project is now on hiatus, but the site is still up as another valuable portfolio example. This site was created using WordPress.",
+		"link": "http://bideojames.com/"
+	},
+	{
+		"title": "EG3343 Thermodynamics Content Hosting",
+		"projectDescription": "This project was completed with a team of two other developers to assist a professor with creating a website to host course materials for students to visit. This site was designed in WordPress, and showcases a site that was completed on a team for an individual client as per the client’s requests.",
+		"link": "https://roneaglin.online/EGN3343/"
 	}
+
 ]
