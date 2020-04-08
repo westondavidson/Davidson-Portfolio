@@ -17,9 +17,10 @@ should allow for better mobile support/cleaner interface in both situations
   .fixedNav{
     display: flex;
     flex-direction: row;
-    width: 90%;
+    width: 100%;
     justify-content: space-between;
     align-items: center;
+    background: white;
   }
 
   #tagLine {
@@ -31,7 +32,9 @@ should allow for better mobile support/cleaner interface in both situations
 
   #navMenu{
     white-space: nowrap;
+    margin-right: 10%;
   }
+
 }
 
 @media screen and (min-width: 1000px) {
@@ -59,7 +62,8 @@ should allow for better mobile support/cleaner interface in both situations
     left: 0;
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 20px;
-    border-right: 3px solid gray;
+    border-right: 1px solid black;
+    background-image: linear-gradient(to bottom left, purple, white);
   }
 
 
