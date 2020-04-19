@@ -1,11 +1,11 @@
 [{
 		"title": "Portfolio (This Website)",
 		"projectDescription": "My portfolio website was built from scratch using Angular in conjunction with Bootstrap, and makes use of JSON, jQuery and Angular Materials alongside the aforementioned frameworks to create a well-designed Single-Page Application meant to showcase my skills and previous work as a web developer.",
-		"link": "https://residentialelectric-heating-cooling.com/"
+		"link": ""
 	},
 	{
 		"title": "Residential Electric",
-		"projectDescription": "I can't beleve I didn't die from this one haha asfd;lkasdl;fkasdl;jfsadlj;kfasd;ljkfa;sldjkfasd;jlkaf;sjldkf;adsjlfda;sfasd;asfd;lkasdl;fkasdl;jfsadlj;kfasd;ljkfa;sldjkfasd;jlkaf;sjldkf;adsjlfda;sfasd;asfd;lkasdl;fkasdl;jfsadlj;kfasd;ljkfa;sldjkfasd;jlkaf;sjldkf;adsjlfda;sfasd;asfd;lkasdl;fkasdl;jfsadlj;kfasd;ljkfa;sldjkfasd;jlkaf;sjldkf;adsjlfda;sfasd;asfd;lkasdl;fkasdl;jfsadlj;kfasd;ljkfa;sldjkfasd;jlkaf;sjldkf;adsjlfda;sfasd;asfd;lkasdl;fkasdl;jfsadlj;kfasd;ljkfa;sldjkfasd;jlkaf;sjldkf;adsjlfda;sfasd;asfd;lkasdl;fkasdl;jfsadlj;kfasd;ljkfa;sldjkfasd;jlkaf;sjldkf;adsjlfda;sfasd;asfd;lkasdl;fkasdl;jfsadlj;kfasd;ljkfa;sldjkfasd;jlkaf;sjldkf;adsjlfda;sfasd;asfd;lkasdl;fkasdl;jfsadlj;kfasd;ljkfa;sldjkfasd;jlkaf;sjldkf;adsjlfda;sfasd;asfd;lkasdl;fkasdl;jfsadlj;kfasd;ljkfa;sldjkfasd;jlkaf;sjldkf;adsjlfda;sfasd;",
+		"projectDescription": "This website was designed for an HVAC company, following their direct requests for website functionality. I worked closely with one of the company’s co-owners during this project, frequently meeting to communicate updates and iterations to be made to the website’s design. The site was created using the WordPress CMS to allow the client to easily manage the site after my initial setup process was finished.",
 		"link": "https://residentialelectric-heating-cooling.com/"
 	},
 	{
