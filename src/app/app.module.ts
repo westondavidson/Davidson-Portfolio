@@ -17,6 +17,7 @@ import { ContactComponent } from './contact/contact.component';
 import { MatCardsComponent } from './mat-cards/mat-cards.component';
 import { ContactFormComponent } from './contact-form/contact-form.component';
 
+import * as $ from 'jquery';
 
 
 @NgModule({

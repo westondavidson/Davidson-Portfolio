@@ -41,7 +41,7 @@ export class HeadComponent implements OnInit {
 
 
  if ($(window).width() > 960) {
-   $('body').ripples({
+   (<any>$('body')).ripples({
  resolution: 512,
  dropRadius: 20,
  perturbance: 0.04,

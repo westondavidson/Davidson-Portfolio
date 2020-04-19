@@ -73,7 +73,7 @@ width: 100%;
 }
 
 body{
-  background-image: linear-gradient(to bottom right, purple, blue);
+  background-image: linear-gradient(to bottom right, #242582, #2F2FA2);
 }
 
 .bg-primary{
