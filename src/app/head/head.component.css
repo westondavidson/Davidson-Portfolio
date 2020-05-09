@@ -48,6 +48,9 @@ should allow for better mobile support/cleaner interface in both situations
   #tagLine7 {
       display: none;
   }
+  #tagLine8 {
+      display: none;
+  }
   #navMenu{
     white-space: nowrap;
     margin-right: 10%;
@@ -108,7 +111,13 @@ should allow for better mobile support/cleaner interface in both situations
     #tagLine7 {
       font-size: .5vw;
       position: relative;
-      top: 40px;
+      top: 35px;
+      left:15px;
+    }
+    #tagLine8 {
+      font-size: .5vw;
+      position: relative;
+      top: 15px;
       left:15px;
     }
   .fixedNav{
