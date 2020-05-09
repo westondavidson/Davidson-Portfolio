@@ -30,12 +30,35 @@ should allow for better mobile support/cleaner interface in both situations
     left:5px;
   }
 
+  #tagLine2 {
+      display: none;
+  }
+  #tagLine3 {
+      display: none;
+  }
+  #tagLine4 {
+      display: none;
+  }
+  #tagLine5 {
+      display: none;
+  }
+  #tagLine6 {
+      display: none;
+  }
+  #tagLine7 {
+      display: none;
+  }
   #navMenu{
     white-space: nowrap;
     margin-right: 10%;
   }
 
+
 }
+
+
+
+
 
 @media screen and (min-width: 1000px) {
 
@@ -47,12 +70,47 @@ should allow for better mobile support/cleaner interface in both situations
   }
 
     #tagLine {
-      font-size: 2.5vw;
+      font-size: 3.0vw;
       position: relative;
       top: 40px;
       left:15px;
     }
-
+    #tagLine2 {
+      font-size: 2.5vw;
+      position: relative;
+      top: 50px;
+      left:15px;
+    }
+    #tagLine3 {
+      font-size: 2.0vw;
+      position: relative;
+      top: 60px;
+      left:15px;
+    }
+    #tagLine4 {
+      font-size: 1.5vw;
+      position: relative;
+      top: 65px;
+      left:15px;
+    }
+    #tagLine5 {
+      font-size: 1.0vw;
+      position: relative;
+      top: 60px;
+      left:15px;
+    }
+    #tagLine6 {
+      font-size: .6vw;
+      position: relative;
+      top: 50px;
+      left:15px;
+    }
+    #tagLine7 {
+      font-size: .5vw;
+      position: relative;
+      top: 40px;
+      left:15px;
+    }
   .fixedNav{
     height: 100%; /* Full-height: remove this if you want "auto" height */
     width: 30%; /* Set the width of the sidebar */
@@ -70,8 +128,8 @@ should allow for better mobile support/cleaner interface in both situations
 
   #navMenu{
     margin: auto;
-    width: 10%;
-    top: 40vh;
+    width: 1%;
+    top: 20vh;
     left: 1vw;
 
     white-space: nowrap;
