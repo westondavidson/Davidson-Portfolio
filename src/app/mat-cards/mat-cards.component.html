@@ -15,6 +15,9 @@
   <div class="collapse" id="collapseText-{{i}}" aria-expanded="false">
      {{portfolio.projectDescription}}
 
+<!--property binding allows use of HTML tags within JSON-->
+   <ul [innerHTML]="portfolio.projectKeynotes"></ul>
+
      </div>
 
                <a role="button" class="collapsed" data-toggle="collapse" href="#collapseText-{{i}}" aria-expanded="false" aria-controls="collapseText"></a>

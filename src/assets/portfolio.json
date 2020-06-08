@@ -1,31 +1,43 @@
 [{
 		"title": "Portfolio (This Website)",
-		"projectDescription": "My portfolio website was built from scratch using Angular in conjunction with Bootstrap, and makes use of JSON, jQuery and Angular Materials alongside the aforementioned frameworks to create a well-designed Single-Page Application meant to showcase my skills and previous work as a web developer.",
+		"projectDescription": "This portfolio site was built from scratch to showcase my previous work and design skills as a web developer.",
+		"projectKeynotes":"<li>Employs Single Page Application Architecture<\/li><li>Built using Angular in conjunction with Bootstrap<\/li><li>Makes use of JSON, jQuery and Angular Materials<\/li><li>Makes use of Angular declarations, interpolation, components, dependencies, and many other key aspects of the Angular framework <\/li>",
 		"link": ""
 	},
 	{
 		"title": "Residential Electric",
-		"projectDescription": "This website was designed for an HVAC company, following their direct requests for website functionality. I worked closely with one of the company’s co-owners during this project, frequently meeting to communicate updates and iterations to be made to the website’s design. The site was created using the WordPress CMS to allow the client to easily manage the site after my initial setup process was finished.",
+		"projectDescription": "This website was designed for an HVAC company, following their direct requests for site functionality.",
+		"projectKeynotes":"<li>Created using the WordPress CMS<\/li><li>Worked closely with client to evaluate and implement requested features<\/li><li>Employed iterative design practices to update the website based on the needs of the client<\/li>",
 		"link": "https://residentialelectric-heating-cooling.com/"
 	},
 	{
 		"title": "DaytonaState InMotion News",
-		"projectDescription": "During my time at Daytona State College, I assisted the college newspaper with their website as resident Webmaster for about 2 years. This site was originally created using the WordPress CMS. During this time I regularly attended meetings regarding the website, communicated and collaborated with staff writers on articles, managed user accounts, and maintained the legacy systems put in place by previous Webmasters.",
+		"projectDescription": "During my time at Daytona State College, I assisted the college newspaper with their website as resident Webmaster for 2 years.",
+		"projectKeynotes": "<li>Created using the WordPress CMS<\/li><li>Collaborated with staff members to provide content for the site<\/li><li>Attended weekly meetings with staff to discuss website content and features<\/li><li>Managed user accounts, employing best cybersecurity practices to avoid any stolen accounts or information<\/li><li>Maintained and updated legacy systems put in place by previous Webmasters<\/li>",
 		"link": "https://www.daytonastateinmotion.com/"
 	},
 	{
 		"title": "Bideojames",
-		"projectDescription": "For a brief period, I assisted a team of video game journalists with designing and running a gaming news website. The project is now on hiatus, but the site is still up as another valuable portfolio example. This site was created using WordPress.",
+		"projectDescription": "For a brief period, I assisted a team of video game journalists with designing and running a gaming news website. The project is now on hiatus, but the site is still up as another valuable portfolio example.",
+		"projectKeynotes": "<li>Created using the WordPress CMS<\/li><li>Collaborated with staff members to provide content for the site<\/li>",
 		"link": "http://bideojames.com/"
 	},
 	{
-		"title": "Web Systems Course Website",
-		"projectDescription": "This site serves as a host for projects completed during my time in COP4813 – Web Systems. This site serves as a display of my abilities with multiple fundamental aspects of web development, including form validation, canvas animation, JSON parsing, and even some light video game development using the Phaser 3 javascript-based game engine.",
+		"title": "Haxan Future",
+		"projectDescription": "This site serves as the host for any creative productions I make under the pseudonym “Haxan Future”.",
+		"projectKeynotes": "<li>Created using Angular, Bootstrap, Angular Materials, and JQuery<\/li><li>Currently not mobile-friendly, will be updated in the near future<\/li>",
 		"link": "http://haxanfuture.com/"
 	},
 	{
+		"title": "Web Systems Course Website",
+		"projectDescription": "This site serves as a host for projects completed during my time in COP4813 – Web Systems. This site serves as a display of my abilities with multiple fundamental aspects of web development.",
+		"projectKeynotes": "<li>Created from scratch using HTML, CSS and JavaScript<\/li><li>Makes use of concepts like form validation, canvas animation, JSON parsing, and multimedia development using the Phaser 3 JavaScript game engine<\/li>",
+		"link": "https://westondavidson.github.io/COP4813/home.html"
+	},
+	{
 		"title": "EG3343 Thermodynamics Content Hosting",
-		"projectDescription": "This project was completed with a team of two other developers to assist a professor with creating a website to host course materials for students to visit. This site was designed in WordPress, and showcases a site that was completed on a team for an individual client as per the client’s requests.",
+		"projectDescription": "This project was completed with a team of two other developers to assist a professor with creating a website to host course materials for EG3343 students to visit.",
+		"projectKeynotes": "<li>Created using the WordPress CMS<\/li><li>Strong practice in collaborating with other developers to meet a client’s needs<\/li>",
 		"link": "https://roneaglin.online/EGN3343/"
 	}
 
