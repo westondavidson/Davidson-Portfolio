@@ -73,7 +73,12 @@ width: 100%;
 }
 
 body{
+  /*
   background-image: linear-gradient(to bottom right, #242582, #2F2FA2);
+  */
+  background-image: url("/assets/hd-cityscape.jpg");
+  background-repeat: repeat-y;
+
 }
 
 .bg-primary{
