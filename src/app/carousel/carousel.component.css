@@ -4,10 +4,14 @@
 }
 @media screen and (min-width: 1000px) {
 #content{
-  overflow: hidden;
-  margin-left: 30%;
-  margin-right: -5%;
-  margin-top: 10%;
+  position: fixed;
+  overflow: auto;
+  width: 60%;
+  top: 10px;
+  left: 35%;
+  margin-bottom: 10%;
+  margin-right: 5%;
+  height: 100%;
 }
 }
 

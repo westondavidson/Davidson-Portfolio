@@ -13,7 +13,9 @@ export class MatCardsComponent implements OnInit {
   constructor(
 
     private cardService: PortfolioDataService
-  ) { }
+  ) {
+
+   }
 
   ngOnInit(): void {
 
