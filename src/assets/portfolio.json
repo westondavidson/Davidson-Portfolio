@@ -9,35 +9,41 @@
 		"title": "Residential Electric",
 		"projectDescription": "This website was designed for an HVAC company, following their direct requests for site functionality.",
 		"projectKeynotes":"<li>Created using the WordPress CMS<\/li><li>Worked closely with client to evaluate and implement requested features<\/li><li>Employed iterative design practices to update the website based on the needs of the client<\/li>",
+		"imagePath":"/assets/website-images/res_electric.jpg",
 		"link": "https://residentialelectric-heating-cooling.com/"
 	},
 	{
 		"title": "DaytonaState InMotion News",
 		"projectDescription": "During my time at Daytona State College, I assisted the college newspaper with their website as resident Webmaster for 2 years.",
 		"projectKeynotes": "<li>Created using the WordPress CMS<\/li><li>Collaborated with staff members to provide content for the site<\/li><li>Attended weekly meetings with staff to discuss website content and features<\/li><li>Managed user accounts, employing best cybersecurity practices to avoid any stolen accounts or information<\/li><li>Maintained and updated legacy systems put in place by previous Webmasters<\/li>",
+		"imagePath":"/assets/website-images/dsc_inmotion.jpg",
 		"link": "https://www.daytonastateinmotion.com/"
 	},
 	{
 		"title": "Bideojames",
 		"projectDescription": "For a brief period, I assisted a team of video game journalists with designing and running a gaming news website. The project is now on hiatus, but the site is still up as another valuable portfolio example.",
 		"projectKeynotes": "<li>Created using the WordPress CMS<\/li><li>Collaborated with staff members to provide content for the site<\/li>",
+		"imagePath":"/assets/website-images/bideojames.jpg",
 		"link": "http://bideojames.com/"
 	},
 	{
 		"title": "Haxan Future",
 		"projectDescription": "This site serves as the host for any creative productions I make under the pseudonym “Haxan Future”.",
 		"projectKeynotes": "<li>Created using Angular, Bootstrap, Angular Materials, and JQuery<\/li><li>Currently not mobile-friendly, will be updated in the near future<\/li>",
+		"imagePath":"/assets/website-images/haxan_future.jpg",
 		"link": "http://haxanfuture.com/"
 	},
 	{
 		"title": "Web Systems Course Website",
 		"projectDescription": "This site serves as a host for projects completed during my time in COP4813 – Web Systems. This site serves as a display of my abilities with multiple fundamental aspects of web development.",
 		"projectKeynotes": "<li>Created from scratch using HTML, CSS and JavaScript<\/li><li>Makes use of concepts like form validation, canvas animation, JSON parsing, and multimedia development using the Phaser 3 JavaScript game engine<\/li>",
+		"imagePath":"/assets/website-images/cop4813.jpg",
 		"link": "https://westondavidson.github.io/COP4813/home.html"
 	},
 	{
 		"title": "EG3343 Thermodynamics Content Hosting",
 		"projectDescription": "This project was completed with a team of two other developers to assist a professor with creating a website to host course materials for EG3343 students to visit.",
+		"imagePath":"/assets/website-images/egn3343.jpg",
 		"projectKeynotes": "<li>Created using the WordPress CMS<\/li><li>Strong practice in collaborating with other developers to meet a client’s needs<\/li>",
 		"link": "https://roneaglin.online/EGN3343/"
 	}

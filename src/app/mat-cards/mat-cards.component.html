@@ -14,15 +14,15 @@
 
   <div class="collapse" id="collapseText-{{i}}" aria-expanded="false">
 
-    <div class="d-flex flex-row align-items-center">
-      <div class="order-1">
+    <div id="flexing" class="row align-items-center">
+      <div class="col-lg">
      {{portfolio.projectDescription}}
 
 
 <!--property binding allows use of HTML tags within JSON-->
    <ul [innerHTML]="portfolio.projectKeynotes" class="listItems"></ul>
    </div>
-   <div class="order-2 ml-auto">
+   <div class="col-lg">
        <img src={{portfolio.imagePath}} class="img-thumbnail" />
        </div>
        </div>
