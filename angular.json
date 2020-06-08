@@ -29,8 +29,8 @@
               "src/styles.css",
             ],
             "scripts": [
-              "./node_modules/jquery/jquery-3.4.1.min.js",
-              "./node_modules/ripples/jquery.ripples-master/dist/jquery.ripples-min.js",
+              "./node_modules/jquery/dist/jquery.min.js",
+              "./node_modules/jquery.ripples/dist/jquery.ripples-min.js",
               "./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js",
             ]
           },
