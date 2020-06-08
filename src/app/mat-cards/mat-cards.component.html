@@ -13,10 +13,19 @@
 <mat-card-content>
 
   <div class="collapse" id="collapseText-{{i}}" aria-expanded="false">
+
+    <div class="d-flex flex-row align-items-center">
+      <div class="order-1">
      {{portfolio.projectDescription}}
 
+
 <!--property binding allows use of HTML tags within JSON-->
-   <ul [innerHTML]="portfolio.projectKeynotes"></ul>
+   <ul [innerHTML]="portfolio.projectKeynotes" class="listItems"></ul>
+   </div>
+   <div class="order-2 ml-auto">
+       <img src={{portfolio.imagePath}} class="img-thumbnail" />
+       </div>
+       </div>
 
      </div>
 

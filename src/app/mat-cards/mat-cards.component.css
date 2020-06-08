@@ -6,12 +6,12 @@
 
 #module #collapseText-1.collapse:not(.show) #collapseText-2.collapse:not(.show) #collapseText-3.collapse:not(.show) #collapseText-4.collapse:not(.show) {
   display: block;
-  height: 3rem;
+  height: 4rem;
   overflow: hidden;
 }
 
 #module #collapseText-1.collapsing #collapseText-2.collapsing #collapseText-3.collapsing #collapseText-4.collapsing {
-  height: 3rem;
+  height: 4rem;
 }
 
 #module a.collapsed::after {
@@ -20,4 +20,22 @@
 
 #module a:not(.collapsed)::after {
   content: '- Hide Description';
+}
+.img-thumbnail{
+  width: 100%;
+  height: 100%;
+  margin: 10px;
+  display: inline-block;
+
+}
+
+#listItems{
+  display: inline-block;
+  width: 70%;
+}
+
+@media screen and (max-width: 1200px) {
+.img-thumbnail{
+display: none;
+}
 }
