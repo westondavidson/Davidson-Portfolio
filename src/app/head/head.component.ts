@@ -3,6 +3,7 @@ import { Component, OnInit, HostListener } from '@angular/core';
 import { Renderer2, Inject } from '@angular/core';
 
 
+
 @Component({
   selector: 'app-head',
   templateUrl: './head.component.html',
@@ -13,38 +14,39 @@ export class HeadComponent implements OnInit {
 
 
 
+  /* --not currently in use - this can be used to move elements around based on cursor x and y positions
+        x;
+        y;
+        //cast balls as a HTMLCollectionOf elements
+        balls = document.getElementsByClassName("ball") as HTMLCollectionOf<HTMLElement>;
+        @HostListener('document:mousemove', ['$event'])
+        onMouseMove(e) {
+          this.x = e.clientX * 120 / window.innerWidth + "%";
+          this.y = e.clientY * 130 / window.innerHeight + "%";
 
-    x;
-    y;
-    //cast balls as a HTMLCollectionOf elements
-    balls = document.getElementsByClassName("ball") as HTMLCollectionOf<HTMLElement>;
-    @HostListener('document:mousemove', ['$event'])
-    onMouseMove(e) {
-      this.x = e.clientX * 120 / window.innerWidth + "%";
-      this.y = e.clientY * 130 / window.innerHeight + "%";
+      //console.log(e);
 
-  //console.log(e);
-
-  for(var i=0;i<2;i++){
-    this.balls[i].style.left = this.x;
-    this.balls[i].style.top = this.y;
-    this.balls[i].style.transform = "translate(-"+this.x+",-"+this.y+")";
-    //console.log(this.x);
-    //console.log(this.y);
-}
+      for(var i=0;i<2;i++){
+        this.balls[i].style.left = this.x;
+        this.balls[i].style.top = this.y;
+        this.balls[i].style.transform = "translate(-"+this.x+",-"+this.y+")";
+        //console.log(this.x);
+        //console.log(this.y);
+    }
 
 
-
-}
+  }
+  */
 
   constructor() {
 
+//ripples plugin effect
 
  if ($(window).width() > 960) {
    (<any>$('body')).ripples({
  resolution: 512,
  dropRadius: 20,
- perturbance: 0.04,
+ perturbance: 0.01,
 });
  }
 
