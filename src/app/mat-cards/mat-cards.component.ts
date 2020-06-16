@@ -21,6 +21,8 @@ export class MatCardsComponent implements OnInit {
 
 
       this.portfolioTabs = this.cardService.getPortfolioData();
+
+
   }
 
 }
