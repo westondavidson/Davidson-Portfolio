@@ -1,0 +1,11 @@
+[
+   {
+      "source":"{{AboutComponent}}"
+   },
+   {
+      "source":"{{ResumeComponent}}"
+   },
+   {
+      "source":"{{ContactComponent}}"
+   }
+]
