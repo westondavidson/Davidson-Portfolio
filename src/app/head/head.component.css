@@ -5,13 +5,16 @@ Two separate css configurations are used for screen based on Width
 should allow for better mobile support/cleaner interface in both situations
 */
 
+
+
+
 @media screen and (max-width: 1000px) {
 
   #headingName{
     position: relative;
     top:5px;
     left: 5px;
-    font-size: 3.5vw;
+    font-size: 20px;
   }
 
   .fixedNav{
@@ -24,10 +27,10 @@ should allow for better mobile support/cleaner interface in both situations
   }
 
   #tagLine {
-    font-size: 2.5vw;
     position: relative;
-    top: 0px;
-    left:5px;
+    top:5px;
+    left: 5px;
+    font-size: 20px;
   }
 
   #tagLine2 {
@@ -57,6 +60,12 @@ should allow for better mobile support/cleaner interface in both situations
   }
 
 
+  .buttonstuff {
+    color: black;
+    border: 1px solid black;
+    margin: 5px;
+  }
+
 }
 
 
@@ -64,61 +73,77 @@ should allow for better mobile support/cleaner interface in both situations
 
 
 @media screen and (min-width: 1000px) {
+.buttonstuff {
+  color: black;
+  border: 1px solid black;
+  font-size: 2vw;
+  padding: 20px;
+  margin: 5px;
+}
+
+  /*resize material buttons for navigation links*/
+  .mat-button {
+    font-size: 2vw;
+    padding: 20px;
+    border: 1px solid purple;
+
+    background-color: Transparent;
+  }
 
   #headingName{
-    position: relative;
-    top:20px;
-    left:10px;
-    font-size: 3.5vw;
+    padding-top: 5%;
+    font-size: 70px;
+    position:relative;
+    line-height: 60px;
+    display: inline-block;
   }
 
     #tagLine {
-      font-size: 3.0vw;
-      position: relative;
-      top: 40px;
-      left:15px;
+      font-size: 60px;
+      padding-right: 10px;
+      line-height: 55px;
+
     }
     #tagLine2 {
-      font-size: 2.5vw;
-      position: relative;
-      top: 50px;
-      left:15px;
+      font-size: 50px;
+      padding-right: 10px;
+      line-height: 55px;
+
     }
     #tagLine3 {
-      font-size: 2.0vw;
-      position: relative;
-      top: 60px;
-      left:15px;
+      font-size: 40px;
+      padding-right: 10px;
+      line-height: 50px;
+
     }
     #tagLine4 {
-      font-size: 1.5vw;
-      position: relative;
-      top: 65px;
-      left:15px;
+      font-size: 30px;
+      padding-right: 10px;
+      line-height: 50px;
+
     }
     #tagLine5 {
-      font-size: 1.0vw;
-      position: relative;
-      top: 60px;
-      left:15px;
+
+      font-size: 20px;
+      padding-right: 10px;
+      line-height: 50px;
+
+
     }
     #tagLine6 {
-      font-size: .6vw;
-      position: relative;
-      top: 50px;
-      left:15px;
+
+
     }
     #tagLine7 {
-      font-size: .5vw;
-      position: relative;
-      top: 35px;
-      left:15px;
+      font-size: 20px;
+      padding-right: 10px;
+      line-height: 50px;
     }
     #tagLine8 {
-      font-size: .5vw;
-      position: relative;
-      top: 15px;
-      left:15px;
+      font-size: 20px;
+      padding-right: 10px;
+      line-height: 50px;
+
     }
   .fixedNav{
     height: 100%; /* Full-height: remove this if you want "auto" height */
@@ -126,9 +151,8 @@ should allow for better mobile support/cleaner interface in both situations
     position: fixed; /* Fixed Sidebar (stay in place on scroll) */
     z-index: 1; /* Stay on top */
     top: 0; /* Stay at the top */
-    left: 0;
+
     overflow-x: hidden; /* Disable horizontal scroll */
-    padding-top: 20px;
     border-right: 1px solid black;
     background-image: linear-gradient(to bottom left, white, gray);
     opacity: 0.5;
@@ -137,9 +161,9 @@ should allow for better mobile support/cleaner interface in both situations
 
   #navMenu{
     margin: auto;
-    width: 1%;
-    top: 20vh;
-    left: 1vw;
+    width: 0%;
+    top: 10vh;
+    left: 0vw;
 
     white-space: nowrap;
 
@@ -151,11 +175,5 @@ should allow for better mobile support/cleaner interface in both situations
     */
   }
 
-  .mat-button{
 
-    padding: 25px;
-    font-size: 20px;
-
-
-  }
 }
