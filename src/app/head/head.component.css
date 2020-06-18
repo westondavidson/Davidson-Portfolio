@@ -27,10 +27,13 @@ should allow for better mobile support/cleaner interface in both situations
   }
 
   #tagLine {
+      display: none;
+    /*
     position: relative;
     top:5px;
     left: 5px;
     font-size: 20px;
+    */
   }
 
   #tagLine2 {
@@ -56,14 +59,26 @@ should allow for better mobile support/cleaner interface in both situations
   }
   #navMenu{
     white-space: nowrap;
-    margin-right: 10%;
   }
 
 
   .buttonstuff {
     color: black;
     border: 1px solid black;
-    margin: 5px;
+    margin: 1px;
+    float: right;
+  }
+
+  #navMenu{
+    white-space: nowrap;
+
+    position: relative;
+    float: right;
+            /*
+    flex-basis: 100%;
+    margin-left: 6vw;
+    margin-right: 6vw;
+    */
   }
 
 }
