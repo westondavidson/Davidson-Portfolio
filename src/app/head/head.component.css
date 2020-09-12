@@ -7,8 +7,8 @@ should allow for better mobile support/cleaner interface in both situations
 
 
 
-
-@media screen and (max-width: 1000px) {
+/*CSS: IF SCREEN IS TOO NARROW*/
+@media screen and (max-width: 750px) {
 
   #headingName{
     position: relative;
@@ -27,10 +27,13 @@ should allow for better mobile support/cleaner interface in both situations
   }
 
   #tagLine {
+      display: none;
+    /*
     position: relative;
     top:5px;
     left: 5px;
     font-size: 20px;
+    */
   }
 
   #tagLine2 {
@@ -56,23 +59,106 @@ should allow for better mobile support/cleaner interface in both situations
   }
   #navMenu{
     white-space: nowrap;
-    margin-right: 10%;
   }
 
 
   .buttonstuff {
     color: black;
     border: 1px solid black;
-    margin: 5px;
+    margin: 1px;
+    float: right;
+  }
+
+  #navMenu{
+    white-space: nowrap;
+
+    position: relative;
+    float: right;
+            /*
+    flex-basis: 100%;
+    margin-left: 6vw;
+    margin-right: 6vw;
+    */
   }
 
 }
 
 
+/*IF SCREEN IS TOO SHORT*/
+@media screen and (max-height: 800px) {
+
+  #headingName{
+    position: relative;
+    top:5px;
+    left: 5px;
+    font-size: 20px;
+  }
+
+  .fixedNav{
+    width: 100%;
+    background: white;
+  }
+
+  #tagLine {
+      display: none;
+    /*
+    position: relative;
+    top:5px;
+    left: 5px;
+    font-size: 20px;
+    */
+  }
+
+  #tagLine2 {
+      display: none;
+  }
+  #tagLine3 {
+      display: none;
+  }
+  #tagLine4 {
+      display: none;
+  }
+  #tagLine5 {
+      display: none;
+  }
+  #tagLine6 {
+      display: none;
+  }
+  #tagLine7 {
+      display: none;
+  }
+  #tagLine8 {
+      display: none;
+  }
 
 
 
-@media screen and (min-width: 1000px) {
+  .buttonstuff {
+    color: black;
+    border: 1px solid black;
+    margin: 1px;
+  }
+  ::ng-deep .btn{
+    font-size: 16px !important;
+
+  }
+
+
+  #navMenu{
+
+display: inline-block;
+            /*
+    flex-basis: 100%;
+    margin-left: 6vw;
+    margin-right: 6vw;
+    */
+  }
+
+}
+
+
+/*IF SCREEN IS TALL*/
+@media screen and (min-height: 1000px) {
 .buttonstuff {
   color: black;
   border: 1px solid black;
@@ -161,9 +247,110 @@ should allow for better mobile support/cleaner interface in both situations
 
   #navMenu{
     margin: auto;
-    width: 0%;
-    top: 10vh;
-    left: 0vw;
+
+    white-space: nowrap;
+
+    position: relative;
+            /*
+    flex-basis: 100%;
+    margin-left: 6vw;
+    margin-right: 6vw;
+    */
+  }
+
+
+}
+
+/*IF SCREEN IS WIDE ENOUGH*/
+@media screen and (min-width: 750px) {
+.buttonstuff {
+  color: black;
+  border: 1px solid black;
+  font-size: 2vw;
+  padding: 20px;
+  margin: 5px;
+}
+
+  /*resize material buttons for navigation links*/
+  .mat-button {
+    font-size: 2vw;
+    padding: 20px;
+    border: 1px solid purple;
+
+    background-color: Transparent;
+  }
+
+  #headingName{
+    padding-top: 5%;
+    font-size: 70px;
+    position:relative;
+    line-height: 60px;
+    display: inline-block;
+  }
+
+    #tagLine {
+      font-size: 60px;
+      padding-right: 10px;
+      line-height: 55px;
+
+    }
+    #tagLine2 {
+      font-size: 50px;
+      padding-right: 10px;
+      line-height: 55px;
+
+    }
+    #tagLine3 {
+      font-size: 40px;
+      padding-right: 10px;
+      line-height: 50px;
+
+    }
+    #tagLine4 {
+      font-size: 30px;
+      padding-right: 10px;
+      line-height: 50px;
+
+    }
+    #tagLine5 {
+
+      font-size: 20px;
+      padding-right: 10px;
+      line-height: 50px;
+
+
+    }
+    #tagLine6 {
+
+
+    }
+    #tagLine7 {
+      font-size: 20px;
+      padding-right: 10px;
+      line-height: 50px;
+    }
+    #tagLine8 {
+      font-size: 20px;
+      padding-right: 10px;
+      line-height: 50px;
+
+    }
+  .fixedNav{
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 30%; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+
+    overflow-x: hidden; /* Disable horizontal scroll */
+    border-right: 1px solid black;
+    background-image: linear-gradient(to bottom left, white, gray);
+    opacity: 0.5;
+  }
+
+
+  #navMenu{
+    margin: auto;
 
     white-space: nowrap;
 
