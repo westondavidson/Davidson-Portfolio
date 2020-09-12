@@ -2,7 +2,7 @@
   width: 10%;
   background-color: #ffff;
 }
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 750px) {
 #content{
   position: fixed;
   overflow: auto;
